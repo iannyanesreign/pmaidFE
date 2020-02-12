@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8b5521a-e9ed-4fb4-8596-7a83035a3d32" name="Default Changelist" comment="Initial Setup">
+      <change afterPath="$PROJECT_DIR$/src/auth_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PrivateRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/constants/action-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-auth0-spa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Xcq0KLlud9oq4m5YS3Vbxwd3Z9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pmaid-fe" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pmaid-fe" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8b5521a-e9ed-4fb4-8596-7a83035a3d32" name="Default Changelist" comment="" />
+      <created>1581355505558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581355505558</updated>
+      <workItem from="1581355508367" duration="11191000" />
+      <workItem from="1581366856627" duration="648000" />
+      <workItem from="1581427678033" duration="14439000" />
+      <workItem from="1581511204160" duration="2461000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Setup">
+      <created>1581366458199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581366458199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Setup">
+      <created>1581366880022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581366880022</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Setup" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="695" y="357" width="587" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581446243561">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="695" y="357" width="587" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1581446243561" />
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581361329146">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581361329146" />
+    <state x="642" y="137" width="906" height="807" key="CommitChangelistDialog2" timestamp="1581513555612">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="642" y="137" width="906" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1581513555612" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581356265336">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1581356265336" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581366902564">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1581366902564" />
+  </component>
+</project>

@@ -1,0 +1,70 @@
+import React, {useState, useEffect} from 'react';
+import logo from './logo.svg';
+import './App.css';
+import { Provider } from "react-redux";
+import store from "./js/store/index";
+import List from "./components/List";
+import Form from "./components/Form";
+import {signIn} from './services/auth'
+import NavBar from "./components/NavBar";
+import { useAuth0 } from "./react-auth0-spa";
+
+function App() {
+
+    const [isAuth, setIsAuth] = useState(false)
+    const [username, setUsername] = useState('')
+    const [password, setPassword] = useState('')
+
+    const { loading } = useAuth0();
+
+    if (loading) {
+        return <div>Loading...</div>;
+    }
+
+
+    console.log('ENV: ', process.env.REACT_APP_MODE)
+    console.log( process.env.REACT_APP_API_KEY)
+
+
+
+
+    async function onLogin(){
+        try {
+            const { data } = await signIn(username, password)
+            setIsAuth(true)
+        }
+        catch (e) {
+            setIsAuth(false)
+
+        }
+    }
+
+    if(isAuth) return <h1>Hola</h1>
+
+
+  return (
+
+  <Provider store={store}>
+    <div className="App">
+        <header>
+            <NavBar />
+        </header>
+        <h1>Inicia Sesión, Modo: {process.env.REACT_APP_MODE}!</h1>
+        <input type="text" name={"username"} placeholder={'Usuario'}
+               onChange={(e) => setUsername(e.target.value)}/>
+        <input type="text" name={"password"} placeholder={'Contraseña'}
+               onChange={(e) => setPassword(e.target.value)}/>
+        <button onClick={() => onLogin()}>Inicia sesión</button>
+        <button >Counter</button>
+        <h2>1</h2>
+        <List />
+        <div>
+            <h2>Add a new article</h2>
+            <Form />
+        </div>
+    </div>
+  </Provider>
+  );
+}
+
+export default App;

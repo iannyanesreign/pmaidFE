@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Configuration
+
+In order to use an auth0 app. you must create a file in the src folder named "auth_congih.json",
+this file must contain the fields "domain" "clientId" that belong to your auth0 App
+
 ## Available Scripts
 
 In the project directory, you can run:

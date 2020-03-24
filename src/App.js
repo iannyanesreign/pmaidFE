@@ -1,16 +1,11 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
-import Home from './Home';
 import routes from "./routes";
 import withTracker from "./withTracker";
 
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./shards-dashboard/styles/shards-dashboards.1.1.0.css";
-
-import { Security, ImplicitCallback } from '@okta/okta-react';
 
 
 function App() {

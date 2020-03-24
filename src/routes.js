@@ -6,7 +6,7 @@ import { DefaultLayout } from "./layouts";
 
 // Route Views
 import BlogOverview from "./views/BlogOverview";
-import BlogOverview2 from "./views/BlogOverview2";
+import MetricsEvolution from "./views/MetricsEvolution";
 import UserProfileLite from "./views/UserProfileLite";
 import AddNewPost from "./views/AddNewPost";
 import Errors from "./views/Errors";
@@ -19,7 +19,7 @@ export default [
     path: "/",
     exact: true,
     layout: DefaultLayout,
-    component: () => <Redirect to="/blog-overview" />
+    component: () => <Redirect to="/metrics-evolution" />
   },
   {
     path: "/blog-overview",
@@ -27,9 +27,9 @@ export default [
     component: BlogOverview
   },
   {
-    path: "/blog-overview-2",
+    path: "/metrics-evolution",
     layout: DefaultLayout,
-    component: BlogOverview2
+    component: MetricsEvolution
   },
   {
     path: "/user-profile-lite",

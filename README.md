@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Set up Environment
+* Set up environment variables for connection in a .env file
+
+```
+REACT_APP_BACKEND_URL="{your-url}"
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

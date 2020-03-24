@@ -1,15 +1,15 @@
 export default function() {
   return [
     {
+      title: "Metrics Evolution",
+      to: "/metrics-evolution",
+      htmlBefore: '<i class="material-icons">dashboard</i>',
+    },
+    {
       title: "Opcion Dummy 1",
       to: "/blog-overview",
       htmlBefore: '<i class="material-icons">dashboard</i>',
       htmlAfter: ""
-    },
-    {
-      title: "Opcion Dummy 2",
-      to: "/blog-overview-2",
-      htmlBefore: '<i class="material-icons">dashboard</i>',
     },
     {
       title: "Blog Posts",

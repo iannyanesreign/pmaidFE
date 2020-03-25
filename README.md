@@ -7,10 +7,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ```
 REACT_APP_BACKEND_URL="{your-url}"
 ```
-
+* Once the .env file is done, run the following command
+```
+source .env
+```
 ## Configuration
 
-In order to use an auth0 app. you must create a file in the src folder named "auth_congih.json",
+In order to use an auth0 app. you must create a file in the src folder named "auth_config.json",
 this file must contain the fields "domain" "clientId" that belong to your auth0 App
 
 ## Available Scripts
